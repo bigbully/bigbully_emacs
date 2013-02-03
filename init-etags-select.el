@@ -1,0 +1,5 @@
+(require 'etags-select)
+(require 'etags-table)
+(global-set-key "\M-." 'etags-select-find-tag)
+(global-set-key "\M-?" 'etags-select-find-tag-at-point)
+(provide 'init-etags-select)
