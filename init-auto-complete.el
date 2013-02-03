@@ -6,7 +6,6 @@
 (setq ac-auto-start nil) ; popup candidates when you press each character is annoying
 (setq ac-dwim nil) ; To get pop-ups with docs even if a word is uniquely completed
 (ac-set-trigger-key "TAB") ; AFTER input prefix, press TAB key ASAP
-(global-set-key (kbd "<C-tab>") 'indent-for-tab-command);;emacs-tab
 
 ;; Use C-n/C-p to select candidate ONLY when completionion menu is displayed
 ;; Below code is copied from offical manual

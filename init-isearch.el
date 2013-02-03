@@ -4,6 +4,9 @@
 ;; Search back/forth for the symbol at point
 ;; See http://www.emacswiki.org/emacs/SearchAtPoint
 ;; use C-s C-w 可以在isearch-mode下向前移动字符
+;;C-o 列出搜索清单
+;;详细说明一下zap-to-isearch这个方法吧：当你已经mark set之后，C-s 搜某个单词，M-z会自动帮你删除掉这个mark的这段内容
+
 (defun isearch-yank-symbol ()
   "*Put symbol at current point into search string."
   (interactive)

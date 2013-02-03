@@ -116,8 +116,7 @@
 
 (require 'init-ctags);;undone but very important
 (require 'init-window-numbering);;M-1,2,3,4窗口切换，先C-x 1 最大化窗口，然后C-x 4 u还原窗口操作
-(require 'init-iimage-mode);;在emacs中浏览图片用
-(require 'init-local);;自己定义
+(require 'init-iimage-mode)
 
 ;;需要研究的
 ;;(require 'init-nxhtml)
@@ -157,7 +156,7 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
-
+(require 'init-local t)
 
 
 ;;----------------------------------------------------------------------------
